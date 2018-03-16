@@ -35,7 +35,6 @@ function buscarPaciente(valor) {
 		
 	}
 }
-
 function exibirConteudo(id)
 {
 	req = new XMLHttpRequest()
