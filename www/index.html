@@ -69,21 +69,21 @@
                         <li class="dropdown">
                             <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button">
                                 <i class="material-icons">notifications</i>
-                                <span class="label-count">7</span>
+                                <span class="label-count">1</span>
                             </a>
                             <ul class="dropdown-menu">
-                                <li class="header">NOTIFICATIONS</li>
+                                <li class="header">NOTIFICAÇÕES</li>
                                 <li class="body">
                                     <ul class="menu">
                                         <li>
                                             <a href="javascript:void(0);">
                                                 <div class="icon-circle bg-light-green">
-                                                    <i class="material-icons">person_add</i>
+                                                    <i class="material-icons">event</i>
                                                 </div>
                                                 <div class="menu-info">
-                                                    <h4>12 new members joined</h4>
+                                                    <h4>Não esqueça de sua consulta!</h4>
                                                     <p>
-                                                        <i class="material-icons">access_time</i> 14 mins ago
+                                                        <i class="material-icons">access_time</i> 16:10 16/03/2016
                                                     </p>
                                                 </div>
                                             </a>
@@ -91,7 +91,7 @@
                                     </ul>
                                 </li>
                                 <li class="footer">
-                                    <a href="javascript:void(0);">View All Notifications</a>
+                                    <a href="javascript:void(0);">Ver todas as notifições</a>
                                 </li>
                             </ul>
                         </li>
@@ -142,7 +142,43 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="dados_clinicos.html">
+                                <i class="material-icons">assignment</i>
+                                <span>Dados Clínicos</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="dados_pessoais.html">
+                                <i class="material-icons">person</i>
+                                <span>Dados Pessoais</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="receber.html">
+                                <i class="material-icons">card_membership</i>
+                                <span>Receber</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="pagar.html">
+                                <i class="material-icons">credit_card</i>
+                                <span>Pagar</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="marca_consulta.html">
+                                <i class="material-icons">insert_invitation</i>
+                                <span>Marcar Consulta</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="cadpac.html">
+                                <i class="material-icons">accessible</i>
+                                <span>Cadastro de Paciente</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="config.html">
                                 <i class="material-icons">settings</i>
                                 <span>Configuração</span>
                             </a>
@@ -273,13 +309,12 @@
             document.addEventListener('DOMContentLoaded', function () {
                 var icon_not = document.getElementsByClassName('dropdown-toggle')[0]
                 var quant_not = document.getElementsByClassName('label-count')[0]
-                if (true) 
-                {
-                    icon_not.addEventListener('click', function(e){
-                        // e.stopPropagation()
-                        quant_not.style.display = 'none'
-                    })
-                }
+                
+                icon_not.addEventListener('click', function(e){
+                    // e.stopPropagation()
+                    quant_not.style.display = 'none'
+                })
+                
             })
         </script>
     </body>

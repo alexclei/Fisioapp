@@ -1,4 +1,4 @@
-#Wed Feb 28 02:46:09 GFT 2018
-base.0=C\:\\Users\\alexc\\FisioApp\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Fri Mar 23 02:26:29 GFT 2018
+base.0=C\:\\wamp64\\www\\FisioApp\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 renamed.0=classes.dex
-file.0=C\:\\Users\\alexc\\FisioApp\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
+file.0=C\:\\wamp64\\www\\FisioApp\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
